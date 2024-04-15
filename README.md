@@ -6,8 +6,8 @@ Python script for exploiting Werkzeug Debug RCE useful for CTFs where you just n
 Updated the python2 script for python3 as it was recently used in my university CTF. 
 ## Usage
 ```
-git clone https://github.com/its-arun/Werkzeug-Debug-RCE.git
+git clone https://github.com/Caldun1/Werkzeug-Debug-RCE-Python3.git
 cd Werkzeug-Debug-RCE
 chmod +x werkzeug.py
-python2 werkzeug.py examplevictim.com whoami
+python3 werkzeug.py examplevictim.com whoami
 ```
